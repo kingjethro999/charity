@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="info-contacts-top-items">
+        <div class="mailinfo">
+            <p class="mail-top">MAIL: contact@charity.com</p>
+            <p class="phone-top">PHONE: +2349077249922</p>
+        </div>
+        <div class="top-donate">
+            <button class="top-donate-btn">Donate Now</button>
+        </div>
+    </div>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Causes</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><img src="./imgs/logo.png" alt="Company-Logo" srcset=""></a></li>
+            <li class="hideOnMobile"><a href="#" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About us</a></li>
+            <li class="hideOnMobile"><a href="#">Causes</a></li>
+            <li class="hideOnMobile"><a href="#">Gallery</a></li>
+            <li class="hideOnMobile"><a href="#">News</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26" viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="slide-1" id="slide" style="background: url('./imgs/hero.jpg');">
+                <div class="slider-items">
+                    <div class="texts-for-slide">
+                        <h1>Donate </h1>
+                        <h2 class="extra-slide-txt">4 a better world</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta explicabo,<br> culpa
+                            et,
+                            tempora ipsa consectetur facilis ipsam qui inventore veniam.</p>
+                    </div>
+                    <div class="slider-buttons">
+                        <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                        <a href="#" class="btn orange-border">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-2" id="slide" style="background: url('./imgs/hero.jpg');">
+                <div class="slider-items">
+                    <div class="texts-for-slide">
+                        <h1>Donate </h1>
+                        <h2 class="extra-slide-txt">4 a better world</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta explicabo,<br> culpa
+                            et,
+                            tempora ipsa consectetur facilis ipsam qui inventore veniam.</p>
+                    </div>
+                    <div class="slider-buttons">
+                        <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                        <a href="#" class="btn orange-border">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-3" id="slide" style="background: url('./imgs/hero.jpg');">
+                <div class="slider-items">
+                    <div class="texts-for-slide">
+                        <h1>Donate </h1>
+                        <h2 class="extra-slide-txt">4 a better world</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit soluta explicabo,<br> culpa
+                            et,
+                            tempora ipsa consectetur facilis ipsam qui inventore veniam.</p>
+                    </div>
+                    <div class="slider-buttons">
+                        <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                        <a href="#" class="btn orange-border">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+        </div>
+    </div>
+    <div class="mobile-hero" style="background: url('./imgs/hero.jpg');">
+        <div class="mobile-hero-items">
+            <div class="texts-for-hero">
+                <h1>Donate </h1>
+                <h2 class="extra-hero-txt">4 a better world</h2>
+            </div>
+            <div class="mobile-hero-buttons">
+                <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                <a href="#" class="btn orange-border">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+
+        <div class="card">
+            <div class="icon">
+                <img src="./imgs/hands-white.png" alt="Volunteer Icon">
+            </div>
+            <h3>Become a Volunteer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis
+                aliquam.
+            </p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img class="hide1" src="./imgs/donation-gray.png" alt="Dance & Music Icon">
+                <img class="hide" src="./imgs/donation-white.png" alt="Dance & Music Icon">
+            </div>
+            <h3>Dance & Music</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis
+                aliquam.
+            </p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <img class="hide1" src="./imgs/charity-gray.png" alt="Online Conference Icon">
+                <img class="hide" src="./imgs/charity-white.png" alt="Online Conference Icon">
+            </div>
+            <h3>Online Conference</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis
+                aliquam.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="m-0">
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear());</script>2024 All rights reserved | This
+                        website is made with <img src="./imgs/favorite_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt="" srcset=""> by <a href="#" target="_blank" style="text-decoration: none;">King</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function showSidebar() {
+            document.querySelector('.sidebar').classList.remove('hide-sidebar');
+        }
+
+        function hideSidebar() {
+            document.querySelector('.sidebar').classList.add('hide-sidebar');
+        }
+
+    </script>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+        const menuButton = document.querySelector('.menu-button');
+        const sidebar = document.querySelector('.sidebar');
+
+        menuButton.addEventListener('click', () => {
+            sidebar.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
